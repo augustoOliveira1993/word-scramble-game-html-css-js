@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Scramble Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toast/style.css">
+    <script src="js/words.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="toast/script.js" defer></script>
+    <!--font Awesome CDN link for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<ul class="notifications"></ul>
+    <div class="container">
+        <h2>Word Scramble Game</h2>
+        <div class="content">
+            <p class="word">enaxpnios</p>
+            <div class="details">
+                <p class="hint">
+                    Hint:
+                    <span class="hits"></span>
+                </p>
+                <p class="time">
+                    Time Left:
+                    <span class="hits"><b>30</b>s</span>
+                </p>
+            </div>
+            <input id="input-field" type="text" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check Word</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
