@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    width: 500px;
+    width: auto;
     border-radius: 7px;
     background: var(--tertiary-color);
 }
@@ -96,13 +96,5 @@ body {
 
 .buttons .check-word {
     background: var(--primary-color);
-
-}
-
-@media screen and (max-width: 374px) {
-    .container {
-        width: 100%;
-        border-radius: 0;
-    }
 
 }
