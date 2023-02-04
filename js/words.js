@@ -1,94 +1,94 @@
 let words = [
     {
-        word: "addition",
-        hint: "The process of adding numbers"
+        word: "Adição",
+        hint: "O processo de somar números"
     },
     {
-        word: "meeting",
-        hint: "Event in which people come together"
+        word: "reunião",
+        hint: "Evento em que as pessoas se reúnem"
     },
     {
-        word: "number",
-        hint: "Math symbol used for counting"
+        word: "número",
+        hint: "Símbolo matemático usado para contar"
     },
     {
-        word: "exchange",
-        hint: "The act of trading"
+        word: "intercâmbio",
+        hint: "O ato de negociar"
     },
     {
-        word: "canvas",
-        hint: "Piece of fabric for oil painting"
+        word: "tela de pintura",
+        hint: "Pedaço de tecido para pintura a óleo"
     },
     {
-        word: "garden",
-        hint: "Space for planting flower and plant"
+        word: "jardim",
+        hint: "Espaço para plantar flores e plantas"
     },
     {
-        word: "position",
-        hint: "Location of someone or something"
+        word: "posição",
+        hint: "Localização de alguém ou algo"
     },
     {
-        word: "feather",
-        hint: "Hair like outer covering of bird"
+        word: "pluma",
+        hint: "Cabelo como cobertura externa de pássaro"
     },
     {
-        word: "comfort",
-        hint: "A pleasant feeling of relaxation"
+        word: "conforto",
+        hint: "Uma agradável sensação de relaxamento"
     },
     {
-        word: "tongue",
-        hint: "The muscular organ of mouth"
+        word: "língua",
+        hint: "O órgão muscular da boca"
     },
     {
-        word: "expansion",
-        hint: "The process of increase or grow"
+        word: "expansão",
+        hint: "O processo de aumentar ou crescer"
     },
     {
-        word: "country",
-        hint: "A politically identified region"
+        word: "país",
+        hint: "Uma região politicamente identificada"
     },
     {
-        word: "group",
-        hint: "A number of objects or persons"
+        word: "grupo",
+        hint: "Vários objetos ou pessoas juntos"
     },
     {
-        word: "taste",
-        hint: "Ability of tongue to detect flavour"
+        word: "gosto",
+        hint: "Capacidade da língua para detectar o sabor"
     },
     {
-        word: "store",
-        hint: "Large shop where goods are traded"
+        word: "loja",
+        hint: "Grande loja onde as mercadorias são negociadas"
     },
     {
-        word: "field",
-        hint: "Area of land for farming activities"
+        word: "campo",
+        hint: "Área de terreno para atividades agropecuárias"
     },
     {
-        word: "friend",
-        hint: "Person other than a family member"
+        word: "amigo",
+        hint: "Pessoa que não seja membro da família"
     },
     {
-        word: "pocket",
-        hint: "A bag for carrying small items"
+        word: "bolso",
+        hint: "Uma bolsa para carregar pequenos objetos"
     },
     {
-        word: "needle",
-        hint: "A thin and sharp metal pin"
+        word: "agulha",
+        hint: "Um alfinete de metal fino e afiado"
     },
     {
-        word: "expert",
-        hint: "Person with extensive knowledge"
+        word: "especialista",
+        hint: "Pessoa com amplo conhecimento"
     },
     {
-        word: "statement",
-        hint: "A declaration of something"
+        word: "declaração",
+        hint: "Uma declaração de algo"
     },
     {
-        word: "second",
-        hint: "One-sixtieth of a minute"
+        word: "segundo",
+        hint: "Um sexagésimo de minuto"
     },
     {
-        word: "library",
-        hint: "Place containing collection of books"
+        word: "biblioteca",
+        hint: "Local contendo coleção de livros"
     },
 ]

@@ -15,7 +15,7 @@ const initTimer = maxTimer => {
             return timerText.innerText = maxTimer;
         }
         clearInterval(timer);
-        notifyError(`Timer off! ${correctWord.toUpperCase()} was the correct word. Please try again!`);
+        notifyError(`Tempo Esgotado! ${correctWord.toUpperCase()} era a palavra correta. Por favor, tente novamente!`);
         initGame();
 
     }, 1000);
@@ -45,12 +45,12 @@ initGame();
 
 const checkWord = () => {
     let userWord = inputField.value;
-    if (!userWord) return notifyError("Please enter a word check")
+    if (!userWord) return notifyError("Insira uma verificação de palavras válida!")
     if (userWord.toLowerCase() !== correctWord) {
-        notifyError(`Oops! ${userWord} is not correct. Please try again!`)
+        notifyError(`Oops! ${userWord} não está correto. Por favor, tente novamente!`)
         return
     }
-    notifySucess(`Congratulations! ${userWord} is correct. You won!`)
+    notifySucess(`Parabéns! ${userWord} está correto. Você ganhou!`)
 
     initGame();
 
