@@ -59,8 +59,12 @@ body {
     margin-bottom: 10px;
 }
 
-.details p b {
-    font-weight: 500;
+.details p b {;
+    font-weight: 600;
+}
+
+span.hits {
+    color: #5372f0;
 }
 
 .content input {

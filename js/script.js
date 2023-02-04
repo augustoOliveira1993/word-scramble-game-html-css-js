@@ -22,7 +22,7 @@ const initTimer = maxTimer => {
 }
 
 const initGame = () => {
-    initTimer(30);
+    initTimer(60);
     let randowObj = allWOrds[Math.floor(Math.random() * allWOrds.length)];
     let wordArray = randowObj.word.split("");
     for (let i = wordArray.length - 1; i > 0; i--) {
